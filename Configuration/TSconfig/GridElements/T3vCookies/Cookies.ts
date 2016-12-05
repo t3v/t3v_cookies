@@ -2,7 +2,7 @@
 
 tx_gridelements {
   setup {
-    t3vCookiesAccordion {
+    t3vCookiesCookies {
       title = LLL:EXT:t3v_cookies/Resources/Private/Language/locallang_be.xlf:gridElements.t3vCookies.cookies.title
 
       description = LLL:EXT:t3v_cookies/Resources/Private/Language/locallang_be.xlf:gridElements.t3vCookies.cookies.description
