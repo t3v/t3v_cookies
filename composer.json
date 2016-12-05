@@ -18,7 +18,7 @@
     "UH LÁLÁ"
   ],
   "homepage": "https://bitbucket.org/t3v/t3v_cookies",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "require": {
     "php": ">= 5.6",
     "typo3/cms-core": ">= 7.6.0, < 8.1.0",
@@ -31,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "T3v\\T3vContent\\": "Classes"
+      "T3v\\T3vCookies\\": "Classes"
     }
   }
 }

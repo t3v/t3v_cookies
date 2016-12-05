@@ -15,7 +15,7 @@ Installation
       ],
 
       "require": {
-        "t3v/t3v_cookies": "~0.0.1"
+        "t3v/t3v_cookies": "~1.0.0"
       }
     }
     ```
