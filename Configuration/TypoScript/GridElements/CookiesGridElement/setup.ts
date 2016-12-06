@@ -5,11 +5,11 @@ tt_content {
     20 {
       10 {
         setup {
-          t3vCookiesCookies < lib.gridelements.defaultGridSetup
-          t3vCookiesCookies {
+          t3vCookiesCookiesGridElement < lib.gridelements.defaultGridSetup
+          t3vCookiesCookiesGridElement {
             cObject = FLUIDTEMPLATE
             cObject {
-              file = EXT:t3v_cookies/Resources/Private/Templates/GridElements/T3vCookies/Cookies.html
+              file = EXT:t3v_cookies/Resources/Private/Templates/GridElements/CookiesGridElement.html
 
               layoutRootPath = EXT:t3v_cookies/Resources/Private/Layouts/GridElements/
 

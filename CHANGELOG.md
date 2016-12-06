@@ -3,10 +3,15 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* New naming schema
+
 1.0.0
 -----
 
-* Implemented `Cookies` Grid Element
+* Implemented `CookiesGridElement`
 * Added common files
 * First commit
 

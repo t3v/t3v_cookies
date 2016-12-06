@@ -6,9 +6,9 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- T3v Cookies Cookies -->
+      <!-- Cookies Grid Element -->
 
-      <trans-unit id="gridElements.t3vCookies.cookies.closeControl.label">
+      <trans-unit id="gridElements.cookiesGridElement.closeControl.label">
         <source>Close</source>
         <target>Schliessen</target>
       </trans-unit>

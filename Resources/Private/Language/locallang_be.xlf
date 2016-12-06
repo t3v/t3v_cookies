@@ -6,17 +6,17 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- T3v Cookies Cookies -->
+      <!-- Cookies Grid Element -->
 
-      <trans-unit id="gridElements.t3vCookies.cookies.title">
-        <source>Cookies</source>
+      <trans-unit id="gridElements.cookiesGridElement.title">
+        <source>Cookies Grid Element</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vCookies.cookies.description">
-        <source>Cookies Element</source>
+      <trans-unit id="gridElements.cookiesGridElement.description">
+        <source>Cookies Grid Element</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.t3vCookies.cookies.rows.1.columns.1.name">
+      <trans-unit id="gridElements.cookiesGridElement.rows.1.columns.1.name">
         <source>Content</source>
       </trans-unit>
     </body>
