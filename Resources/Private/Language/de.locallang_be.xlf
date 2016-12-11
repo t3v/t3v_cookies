@@ -10,12 +10,12 @@
 
       <trans-unit id="gridElements.noteGridElement.title">
         <source>Cookies Note</source>
-        <target>Cookies Note</target>
+        <target>Cookies Hinweis</target>
       </trans-unit>
 
       <trans-unit id="gridElements.noteGridElement.description">
         <source>Cookies Note Grid Element</source>
-        <target>Cookies Note Grid Element</target>
+        <target>Cookies Hinweis Grid Element</target>
       </trans-unit>
 
       <trans-unit id="gridElements.noteGridElement.rows.1.columns.1.name">
