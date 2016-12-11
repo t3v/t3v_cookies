@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Renamed `CookiesGridElement` to `NoteGridElement`
+
 1.1.0
 -----
 

@@ -6,9 +6,9 @@
     <body>
       <!-- === Grid Elements === -->
 
-      <!-- Cookies Grid Element -->
+      <!-- Note Grid Element -->
 
-      <trans-unit id="gridElements.cookiesGridElement.closeControl.label">
+      <trans-unit id="gridElements.noteGridElement.closeControl.label">
         <source>Close</source>
         <target>Schliessen</target>
       </trans-unit>

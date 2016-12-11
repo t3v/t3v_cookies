@@ -1,3 +1,3 @@
 # === Includes ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/CookiesGridElement.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/NoteGridElement.ts">
