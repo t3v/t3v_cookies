@@ -3,6 +3,13 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Updated icons
+* Released under the MIT License
+* Switched to GitHub
+
 1.2.1
 -----
 

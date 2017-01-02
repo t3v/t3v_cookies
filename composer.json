@@ -17,7 +17,8 @@
     "TYPO3voila",
     "UH LÁLÁ"
   ],
-  "homepage": "https://bitbucket.org/t3v/t3v_cookies",
+  "homepage": "https://t3v.github.io/t3v_cookies/",
+  "license": "MIT",
   "version": "1.2.1",
   "require": {
     "php": ">= 5.6",
