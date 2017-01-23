@@ -28,7 +28,7 @@
     "t3v/t3v_content": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "~5.7.5"
+    "phpunit/phpunit": "~5.7.6"
   },
   "replace": {
     "t3v_cookies": "self.version",
