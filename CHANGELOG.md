@@ -6,8 +6,9 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Added unit and functional tests
 * Use `call_user_func` in `ext_localconf.php` and `ext_tables.php`
+* Configured Travis CI
+* Added unit and functional tests
 * New icon
 * Updated claim
 
