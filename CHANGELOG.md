@@ -6,7 +6,10 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added unit and functional tests
 * Use `call_user_func` in `ext_localconf.php` and `ext_tables.php`
+* New icon
+* Updated claim
 
 1.3.2
 -----

@@ -1,14 +1,45 @@
 [T3v Cookies]
 =============
 
-**The [TYPO3voila] Cookies extension.**
+[![Travis CI Status][Travis CI Status]][Travis CI]
+
+**The cookies extension of [TYPO3Voila].**
+
+Dependencies
+------------
+
+* TYPO3 CMS 7.6 or greater
+* Grid Elements extension
+* T3v Core extension
+* T3v Content extension
 
 Installation
 ------------
 
-1. Add `t3v_cookies` to the [Composer] configuration (`composer.json`)
+1. Add T3v Cookies (`t3v_cookies`) as dependency to the [Composer] configuration (`composer.json`)
 2. Run `composer install` or `composer update` to install all dependencies with Composer
-3. Include the TypoScript for `t3v_cookies` in the main TypoScript template
+3. Include the TypoScript for T3v Cookies
+
+Development
+-----------
+
+### Setup
+
+```
+$ ./Scripts/Setup.sh
+```
+
+### Run Unit Tests
+
+```
+$ ./Scripts/Tests/Unit.sh
+```
+
+### Run Functional Tests
+
+```
+$ ./Scripts/Tests/Functional.sh
+```
 
 Bug Reports
 -----------
@@ -46,5 +77,7 @@ T3v Cookies is released under the [MIT License (MIT)], see [LICENSE].
 [Madebyoliver]: http://www.flaticon.com/authors/madebyoliver "Madebyoliver"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
-[T3v Cookies]: https://t3v.github.io/t3v_cookies/ "The TYPO3voila Cookies extension."
+[T3v Cookies]: https://t3v.github.io/t3v_cookies/ "The cookies extension of TYPO3Voila."
+[Travis CI Status]: https://img.shields.io/travis/t3v/t3v_cookies.svg?style=flat "Travis CI Status"
+[Travis CI]: https://travis-ci.org/t3v/t3v_cookies "T3v Cookies at Travis CI"
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
