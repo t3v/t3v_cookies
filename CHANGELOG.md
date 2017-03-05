@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Added translations for spanish, french, italian and chinese
+
 1.4.0
 -----
 

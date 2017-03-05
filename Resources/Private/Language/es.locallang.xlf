@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
-  <file product-name="t3v_cookies" source-language="en" target-language="de" datatype="plaintext" original="messages">
+  <file product-name="t3v_cookies" source-language="en" target-language="es" datatype="plaintext" original="messages">
     <header />
 
     <body>
@@ -10,7 +10,7 @@
 
       <trans-unit id="gridElements.noteGridElement.closeControl.label">
         <source>Close</source>
-        <target>Schließen</target>
+        <target>Cerca</target>
       </trans-unit>
     </body>
   </file>
