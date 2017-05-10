@@ -1,12 +1,14 @@
 <?php
 namespace T3v\T3vCookies\Tests\Unit;
 
-use \TYPO3\CMS\Core\Tests\UnitTestCase;
+use \Nimut\TestingFramework\TestCase\UnitTestCase;
 
 use \T3v\T3vCookies\Tests\Unit\Fixtures\LoadableClass;
 
 /**
  * First Class Test Class
+ *
+ * @package T3v\T3vCookies\Tests\Unit
  */
 class FirstClassTest extends UnitTestCase {
   /**

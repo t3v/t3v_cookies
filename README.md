@@ -9,14 +9,14 @@ Dependencies
 ------------
 
 * TYPO3 CMS 7.6 or greater
-* Grid Elements (`gridelements`) extension
-* T3v Core (`t3v_core`) extension
-* T3v Content (`t3v_content`) extension
+* Grid Elements extension
+* T3v Core extension
+* T3v Content extension
 
 Installation
 ------------
 
-1. Add T3v Cookies (`t3v_cookies`) as dependency to the [Composer] configuration (`composer.json`)
+1. Add T3v Cookies as dependency to the [Composer] configuration
 2. Run `composer install` or `composer update` to install all dependencies with Composer
 3. Include the TypoScript for T3v Cookies
 
