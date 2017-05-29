@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Defined namespace in `ext_localconf` and `ext_tables`
 * Updated scripts
 
 2.0.0
