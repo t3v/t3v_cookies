@@ -73,9 +73,12 @@ License
 
 T3v Cookies is released under the [MIT License (MIT)], see [LICENSE].
 
+[Acceptance testing TYPO3]: https://wiki.typo3.org/Acceptance_testing "Acceptance testing TYPO3"
+[Automated testing TYPO3]: https://wiki.typo3.org/Automated_testing "Automated testing TYPO3"
 [CC 3.0 BY]: http://creativecommons.org/licenses/by/3.0/ "Creative Commons BY 3.0"
 [Composer]: https://getcomposer.org "Dependency Manager for PHP"
 [Flaticon]: http://www.flaticon.com "Flaticon"
+[Functional testing TYPO3]: https://wiki.typo3.org/Functional_testing "Functional testing TYPO3"
 [Gingerbread free icon]: http://www.flaticon.com/free-icon/gingerbread_135616 "Gingerbread free icon"
 [here]: https://github.com/t3v/t3v_cookies/issues "GitHub Issue Tracker"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_cookies/master/LICENSE "License"
@@ -86,3 +89,4 @@ T3v Cookies is released under the [MIT License (MIT)], see [LICENSE].
 [Travis CI Status]: https://img.shields.io/travis/t3v/t3v_cookies.svg?style=flat "Travis CI Status"
 [Travis CI]: https://travis-ci.org/t3v/t3v_cookies "T3v Cookies at Travis CI"
 [TYPO3voila]: https://github.com/t3v "“UH LÁLÁ, TYPO3!”"
+[Unit Testing TYPO3]: https://wiki.typo3.org/Unit_Testing_TYPO3 "Unit testing TYPO3"
