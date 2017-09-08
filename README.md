@@ -66,7 +66,7 @@ Credits
 
 * [Gingerbread free icon]
 
-Icons made by [Madebyoliver] from [Flaticon] is licensed by [CC 3.0 BY].
+Icons made by [Smashicons] from [Flaticon] is licensed by [CC 3.0 BY].
 
 License
 -------
@@ -82,9 +82,9 @@ T3v Cookies is released under the [MIT License (MIT)], see [LICENSE].
 [Gingerbread free icon]: http://www.flaticon.com/free-icon/gingerbread_135616 "Gingerbread free icon"
 [here]: https://github.com/t3v/t3v_cookies/issues "GitHub Issue Tracker"
 [LICENSE]: https://raw.githubusercontent.com/t3v/t3v_cookies/master/LICENSE "License"
-[Madebyoliver]: http://www.flaticon.com/authors/madebyoliver "Madebyoliver"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
+[Smashicons]: http://www.flaticon.com/authors/smashicons "Smashicons"
 [T3v Cookies]: https://t3v.github.io/t3v_cookies/ "The cookies extension of TYPO3Voila."
 [Travis CI Status]: https://img.shields.io/travis/t3v/t3v_cookies.svg?style=flat "Travis CI Status"
 [Travis CI]: https://travis-ci.org/t3v/t3v_cookies "T3v Cookies at Travis CI"
