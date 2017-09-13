@@ -3,6 +3,11 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Updated Travis CI and AppVeyor configuration
+
 2.1.1
 -----
 
@@ -26,7 +31,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 -----
 
 * Updated dependencies
-* Update Travis CI and AppVeyor configuration
+* Updated Travis CI and AppVeyor configuration
 
 2.0.1
 -----
@@ -64,7 +69,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 * Use `call_user_func` in `ext_localconf.php` and `ext_tables.php`
 * Configured Travis CI
 * Added unit and functional tests
-* Updated Composer configuration / dependencies
+* Updated Composer configuration and dependencies
 * New icon
 * Updated claim
 
