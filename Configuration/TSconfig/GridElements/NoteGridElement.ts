@@ -1,4 +1,4 @@
-# === Grid Elements Configuration ===
+# === Note Grid Element Configuration ===
 
 tx_gridelements {
   setup {
@@ -9,7 +9,7 @@ tx_gridelements {
 
       # flexformDS = FILE:EXT:t3v_cookies/Configuration/FlexForms/GridElements/NoteGridElement.xml
 
-      icon = EXT:t3v_cookies/Resources/Public/Icons/GridElements/NoteGridElement.svg
+      iconIdentifier = t3v_cookies-note_grid_element
 
       # Use a colored frame as in the record form:
       # `0` = no color
