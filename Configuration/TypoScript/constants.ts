@@ -2,15 +2,18 @@
 # | T3v Cookies Constants |
 # -------------------------
 
-# t3v {
-#   cookies {
-#     gridElements {
-#       noteGridElement {
-#         container = default
-#       }
-#     }
-#   }
-# }
+t3v {
+  cookies {
+    defaults {
+      gridElements {
+        noteGridElement {
+          # cat=t3v/cookies/defaults/gridElements/noteGridElement; type=string; label=The default container type
+          container = default
+        }
+      }
+    }
+  }
+}
 
 # === Plugin Constants ===
 
@@ -46,4 +49,5 @@ plugin {
 
 # === Includes ===
 
+<INCLUDE_TYPOSCRIPT: source="FILE: ./Library/constants.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/constants.ts">

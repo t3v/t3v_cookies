@@ -2,6 +2,18 @@
 # | T3v Cookies Configuration |
 # -----------------------------
 
+t3v {
+  cookies {
+    defaults {
+      gridElements {
+        noteGridElement {
+          container = {$t3v.cookies.defaults.gridElements.noteGridElement.container}
+        }
+      }
+    }
+  }
+}
+
 # === Plugin Configuration ===
 
 plugin {
@@ -36,4 +48,5 @@ plugin {
 
 # === Includes ===
 
+<INCLUDE_TYPOSCRIPT: source="FILE: ./Library/setup.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/setup.ts">
