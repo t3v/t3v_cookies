@@ -10,6 +10,7 @@ Dependencies
 
 * TYPO3 CMS 7.6 or greater
 * Grid Elements extension
+* VHS extension
 * T3v Core extension
 * T3v Content extension
 
@@ -23,7 +24,7 @@ Installation
 Grid Elements
 -------------
 
-* Cookies Note Grid Element
+* Note Grid Element
 
 Development
 -----------

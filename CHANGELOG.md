@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `VHS` as dependency
 * Updated constants and configuration
 * Use Icon Registry for Grid Element icons
 * Updated Grid Elements TSconfig
