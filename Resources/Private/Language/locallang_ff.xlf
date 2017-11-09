@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+  <file product-name="t3v_cookies" source-language="en" datatype="plaintext" original="messages">
+    <header />
+
+    <body>
+      <!-- === Grid Elements === -->
+
+      <!-- Note Grid Element -->
+
+      <trans-unit id="gridElements.noteGridElement.settings.container.label">
+        <source>Container</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.noteGridElement.settings.container.none.label">
+        <source>None</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.noteGridElement.settings.container.default.label">
+        <source>Default</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.noteGridElement.settings.container.medium.label">
+        <source>Medium</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.noteGridElement.settings.container.large.label">
+        <source>Large</source>
+      </trans-unit>
+
+      <trans-unit id="gridElements.noteGridElement.settings.container.custom.label">
+        <source>Custom</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

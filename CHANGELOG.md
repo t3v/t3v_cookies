@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Added `container` settings to `Note` Grid Element
 * Added `VHS` as dependency
 * Updated constants and configuration
 * Use Icon Registry for Grid Element icons
@@ -111,7 +112,7 @@ Unreleased
 1.2.0
 -----
 
-* Renamed `CookiesGridElement` to `NoteGridElement`
+* Renamed `Cookies` to `Note` Grid Element
 
 1.1.0
 -----
@@ -121,7 +122,7 @@ Unreleased
 1.0.0
 -----
 
-* Implemented `CookiesGridElement`
+* Implemented `Cookies` Grid Element
 * Added common files
 * First commit
 

@@ -7,7 +7,7 @@ tx_gridelements {
 
       description = LLL:EXT:t3v_cookies/Resources/Private/Language/locallang_be.xlf:gridElements.noteGridElement.description
 
-      # flexformDS = FILE:EXT:t3v_cookies/Configuration/FlexForms/GridElements/NoteGridElement.xml
+      flexformDS = FILE:EXT:t3v_cookies/Configuration/FlexForms/GridElements/NoteGridElement.xml
 
       iconIdentifier = t3v_cookies-note_grid_element
 

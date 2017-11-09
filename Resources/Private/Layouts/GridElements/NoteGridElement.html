@@ -1,13 +1,15 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:t3v="http://typo3.org/ns/T3v/T3vContent/ViewHelpers" data-namespace-typo3-fluid="true">
   <div id="c{data.uid}" class="ge--t3v-cookies-note ge">
-    <div class="ge__container container">
-      <div class="ge__main">
-        <f:render section="Main" />
-      </div>
+    <f:if condition="{data.flexform_container}">
+      <f:then>
+        <v:tag name="div" class="ge__container container--{data.flexform_container} container" hideIfEmpty="true">
+          <f:render section="GridElement" arguments="{data: data}" />
+        </v:tag>
+      </f:then>
 
-      <a class="ge__close-control" href="#" title="{f:translate(key: 'gridElements.noteGridElement.closeControl.label', default: 'Close')}">
-        {f:translate(key: 'gridElements.noteGridElement.closeControl.label', default: 'Close')}
-      </a>
-    </div>
+      <f:else>
+        <f:render section="GridElement" arguments="{data: data}" />
+      </f:else>
+    </f:if>
   </div>
 </html>
