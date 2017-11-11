@@ -6,7 +6,7 @@ t3v {
   cookies {
     gridElements {
       noteGridElement {
-        # cat=t3v/cookies/gridElements/noteGridElement; type=string; label=The default container type
+        # cat=t3v/cookies/gridElements/noteGridElement; type=string; label=The Grid Element's container
         container = default
       }
     }
