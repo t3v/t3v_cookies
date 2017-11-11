@@ -2,18 +2,6 @@
 # | T3v Cookies Configuration |
 # -----------------------------
 
-t3v {
-  cookies {
-    defaults {
-      gridElements {
-        noteGridElement {
-          container = {$t3v.cookies.defaults.gridElements.noteGridElement.container}
-        }
-      }
-    }
-  }
-}
-
 # === Plugin Configuration ===
 
 plugin {

@@ -6,7 +6,7 @@ lib {
           noteGridElement {
             container = TEXT
             container {
-              value = {$t3v.cookies.gridElements.noteGridElement.container}
+              value = {$t3v.cookies.defaults.gridElements.noteGridElement.container}
             }
           }
         }
