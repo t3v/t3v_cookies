@@ -124,8 +124,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 1.0.0
 -----
 
+* First release
 * Implemented `Cookies` Grid Element
 * Added common files
-* First commit
 
 [Semantic Versioning]: http://semver.org "Semantic Versioning"
