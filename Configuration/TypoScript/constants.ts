@@ -4,10 +4,12 @@
 
 t3v {
   cookies {
-    gridElements {
-      noteGridElement {
-        # cat=t3v/cookies/gridElements/noteGridElement; type=string; label=The Grid Element's container
-        container = default
+    config {
+      gridElements {
+        noteGridElement {
+          # cat=t3v/cookies/config/gridElements/noteGridElement; type=string; label=The Grid Element's container
+          container = default
+        }
       }
     }
   }

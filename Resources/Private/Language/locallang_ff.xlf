@@ -12,10 +12,6 @@
         <source>Container</source>
       </trans-unit>
 
-      <trans-unit id="gridElements.noteGridElement.settings.container.none.label">
-        <source>None</source>
-      </trans-unit>
-
       <trans-unit id="gridElements.noteGridElement.settings.container.default.label">
         <source>Default</source>
       </trans-unit>

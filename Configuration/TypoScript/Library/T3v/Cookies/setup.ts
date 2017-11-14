@@ -1,3 +1,3 @@
 # === Includes ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/setup.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: ./Config/setup.ts">

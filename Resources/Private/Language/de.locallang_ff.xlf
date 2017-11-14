@@ -13,11 +13,6 @@
         <target>Container</target>
       </trans-unit>
 
-      <trans-unit id="gridElements.noteGridElement.settings.container.none.label">
-        <source>None</source>
-        <target>Ohne</target>
-      </trans-unit>
-
       <trans-unit id="gridElements.noteGridElement.settings.container.default.label">
         <source>Default</source>
         <target>Standard</target>
