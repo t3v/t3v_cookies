@@ -3,8 +3,8 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+3.0.0
+-----
 
 * Added `container` settings to `Note` Grid Element
 * Added `VHS` as dependency
@@ -13,9 +13,9 @@ Unreleased
 * Merged Extensions and Vendor TypoScript
 * Use Icon Registry for Grid Element icons
 * Updated Grid Elements TSconfig
-* Dropped support for PHP 5.x
-* Updated dependencies
 * Updated AppVeyor configuration
+* Updated dependencies
+* Dropped support for PHP 5.x
 
 2.2.0
 -----
