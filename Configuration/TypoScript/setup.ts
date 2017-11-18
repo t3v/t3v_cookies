@@ -19,13 +19,19 @@ plugin {
     }
 
     view {
+      layoutRootPath = {$plugin.tx_t3vcookies.view.layoutRootPath}
+
       layoutRootPaths {
         0 = {$plugin.tx_t3vcookies.view.layoutRootPath}
       }
 
+      templateRootPath = {$plugin.tx_t3vcookies.view.templateRootPath}
+
       templateRootPaths {
         0 = {$plugin.tx_t3vcookies.view.templateRootPath}
       }
+
+      partialRootPath = {$plugin.tx_t3vcookies.view.partialRootPath}
 
       partialRootPaths {
         0 = {$plugin.tx_t3vcookies.view.partialRootPath}
