@@ -6,8 +6,8 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
-* Updated Travis CI configuration
-* Updated AppVeyor configuration
+* Updated Travis CI and AppVeyor configuration
+* Updated dependencies
 
 3.1.0
 -----
