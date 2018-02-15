@@ -6,6 +6,14 @@
 
 plugin {
   tx_t3vcookies {
+    defaults {
+      gridElements {
+        noteGridElement {
+          container = {$plugin.tx_t3vcookies.defaults.gridElements.noteGridElement.container}
+        }
+      }
+    }
+
     persistence {
       enableAutomaticCacheClearing = {$plugin.tx_t3vcookies.persistence.enableAutomaticCacheClearing}
 
@@ -15,7 +23,9 @@ plugin {
     }
 
     settings {
-      # ...
+      extbase {
+        controllerExtensionName = {$plugin.tx_t3vcookies.extbase.controllerExtensionName}
+      }
     }
 
     view {
