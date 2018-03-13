@@ -18,15 +18,18 @@ if (TYPO3_MODE === 'BE') {
 
   $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 
-  // +++ Note Grid Element +++
+  $icons = [
+    'Note Grid Element' => "{$iconsFolder}/GridElements/NoteGridElement.svg"
+  ];
 
-  $iconKey        = 'Note Grid Element';
-  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
-  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
+  foreach ($icons as $name => $source) {
+    $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($name);
+    $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
 
-  $iconRegistry->registerIcon(
-    $iconSignature,
-    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-    ['source' => "{$iconsFolder}/GridElements/NoteGridElement.svg"]
-  );
+    $iconRegistry->registerIcon(
+      $iconSignature,
+      \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+      ['source' => $source]
+    );
+  }
 }
