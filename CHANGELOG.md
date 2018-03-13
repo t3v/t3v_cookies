@@ -8,6 +8,8 @@ Unreleased
 
 * Updated TypoScript
 * Cleaned up
+* Updated dependencies
+* Updated constraints to TYPO3 7.6
 
 3.1.1
 -----
