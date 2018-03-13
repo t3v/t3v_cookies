@@ -18,7 +18,7 @@ if (TYPO3_MODE === 'BE') {
 
   $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 
-  // +++ Note Grid Element +++
+  // +++ Note Grid Element Icon +++
 
   $iconKey        = 'Note Grid Element';
   $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
