@@ -1,10 +1,32 @@
 <?php
-defined('TYPO3_MODE') or die('Access denied.');
+defined('TYPO3_MODE') or die();
 
-call_user_func(function($namespace, $extkey) {
-  $extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extkey);
+// === Variables ===
 
-  // === TsConfig ===
+$extensionKey        = $_EXTKEY;
+$configurationFolder = \T3v\T3vCore\Utility\ExtensionUtility::configurationFolder($extensionKey);
+$iconsFolder         = \T3v\T3vCore\Utility\ExtensionUtility::iconsFolder($extensionKey);
 
-  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:' . $extkey . '/Configuration/TSconfig.ts">');
-}, 't3v', $_EXTKEY);
+// === Page TSconfig ===
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig("<INCLUDE_TYPOSCRIPT: source=\"{$configurationFolder}/TSconfig.ts\">");
+
+// === Backend ===
+
+if (TYPO3_MODE === 'BE') {
+  // --- Icons ---
+
+  $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
+
+  // +++ Note Grid Element +++
+
+  $iconKey        = 'Note Grid Element';
+  $iconIdentifier = \T3v\T3vCore\Utility\IconUtility::iconIdentifier($iconKey);
+  $iconSignature  = \T3v\T3vCore\Utility\IconUtility::iconSignature($extensionKey, $iconIdentifier);
+
+  $iconRegistry->registerIcon(
+    $iconSignature,
+    \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
+    ['source' => "{$iconsFolder}/GridElements/NoteGridElement.svg"]
+  );
+}
