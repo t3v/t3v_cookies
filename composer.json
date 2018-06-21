@@ -9,15 +9,7 @@
       "homepage": "https://bitaculous.com"
     }
   ],
-  "keywords": [
-    "CMS",
-    "Cookies",
-    "Extension",
-    "T3v",
-    "TYPO3",
-    "TYPO3voila",
-    "UH LÁLÁ"
-  ],
+  "keywords": ["CMS", "Cookies", "Extension", "T3v", "TYPO3", "TYPO3voila", "UH LÁLÁ"],
   "homepage": "https://t3v.github.io/t3v_cookies/",
   "support": {
     "issues": "https://github.com/t3v/t3v_cookies/issues"
@@ -38,9 +30,9 @@
   ],
   "require": {
     "php": ">= 7.0 < 7.3",
-    "typo3/cms-core": "^8.7 || ^9.1",
+    "typo3/cms-core": "^8.7 || ^9.3",
     "gridelementsteam/gridelements": "dev-8-0 || dev-master",
-    "fluidtypo3/vhs": "^4.2",
+    "fluidtypo3/vhs": "^5.0",
     "t3v/t3v_core": "*",
     "t3v/t3v_content": "*"
   },
