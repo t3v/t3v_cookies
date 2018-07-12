@@ -91,7 +91,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 2.0.1
 -----
 
-* Defined namespace in `ext_localconf` and `ext_tables`
+* Defined namespace in `ext_localconf.php` and `ext_tables.php`
 * Updated extension icon
 * Updated scripts
 
