@@ -3,10 +3,10 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+3.4.0
+-----
 
-* Updated `Note` Grid Element
+* Refactored `Note` Grid Element
 * Added translations
 * Cleaned up
 
@@ -90,7 +90,7 @@ Unreleased
 2.0.1
 -----
 
-* Defined namespace in `ext_localconf` and `ext_tables`
+* Defined namespace in `ext_localconf.php` and `ext_tables.php`
 * Updated extension icon
 * Updated scripts
 
@@ -136,7 +136,7 @@ Unreleased
 -----
 
 * Updated Composer configuration
-* Updated `ext_emconf.php`
+* Updated Extension configuration
 
 1.3.0
 -----
