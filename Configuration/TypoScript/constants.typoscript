@@ -6,18 +6,6 @@
 
 plugin {
   tx_t3vcookies {
-    defaults {
-      gridElements {
-        noteGridElement {
-          # cat=plugin/tx_t3vcookies/defaults/gridElements/noteGridElement; type=string; label=The grid element's container
-          container = default
-
-          # cat=plugin/tx_t3vcookies/defaults/gridElements/noteGridElement; type=boolean; label=Show the close control
-          # closeControl = 1
-        }
-      }
-    }
-
     persistence {
       # cat=plugin/tx_t3vcookies/persistence; type=boolean; label=Enables the automatic cache clearing when changing data sets
       enableAutomaticCacheClearing = 1
@@ -51,5 +39,4 @@ plugin {
 
 # === Includes ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./Library/constants.typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/constants.typoscript">

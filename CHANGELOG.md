@@ -3,6 +3,13 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Refactored `Note` Grid Element
+* Added translations
+* Cleaned up
+
 4.1.0
 -----
 
@@ -130,7 +137,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 -----
 
 * Updated Composer configuration
-* Updated `ext_emconf.php`
+* Updated Extension configuration
 
 1.3.0
 -----

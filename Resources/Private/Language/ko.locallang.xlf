@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+  <file product-name="dopag_website" source-language="en" target-language="ko" datatype="plaintext" original="messages">
+    <header />
+
+    <body>
+      <!-- === Grid Elements === -->
+
+      <!-- Note Grid Element -->
+
+      <trans-unit id="gridElements.noteGridElement.closeControl.label">
+        <source>Close</source>
+        <target>닫다</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

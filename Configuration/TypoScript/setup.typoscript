@@ -6,14 +6,6 @@
 
 plugin {
   tx_t3vcookies {
-    defaults {
-      gridElements {
-        noteGridElement {
-          container = {$plugin.tx_t3vcookies.defaults.gridElements.noteGridElement.container}
-        }
-      }
-    }
-
     persistence {
       enableAutomaticCacheClearing = {$plugin.tx_t3vcookies.persistence.enableAutomaticCacheClearing}
 
@@ -60,5 +52,4 @@ plugin {
 
 # === Includes ===
 
-<INCLUDE_TYPOSCRIPT: source="FILE: ./Library/setup.typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/setup.typoscript">
