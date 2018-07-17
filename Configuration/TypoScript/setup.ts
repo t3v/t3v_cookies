@@ -16,7 +16,7 @@ plugin {
 
     settings {
       extbase {
-        controllerExtensionName = {$plugin.tx_t3vcookies.extbase.controllerExtensionName}
+        controllerExtensionName = {$plugin.tx_t3vcookies.settings.extbase.controllerExtensionName}
       }
     }
 
@@ -52,4 +52,5 @@ plugin {
 
 # === Includes ===
 
+<INCLUDE_TYPOSCRIPT: source="FILE: ./Library/setup.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE: ./GridElements/setup.ts">

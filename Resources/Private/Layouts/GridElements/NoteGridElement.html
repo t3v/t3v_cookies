@@ -1,6 +1,14 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers" data-namespace-typo3-fluid="true">
   <div id="c{data.uid}" class="ge--t3v-cookies-note ge">
-    <v:variable.set name="container" value="{data.flexform_container}" />
+    <f:if condition="{data.flexform_container}">
+      <f:then>
+        <v:variable.set name="container" value="{data.flexform_container}" />
+      </f:then>
+
+      <f:else>
+        <v:variable.set name="container" value="{f:cObject(typoscriptObjectPath: 'lib.plugin.tx_t3vcookies.defaults.gridElements.noteGridElement.container')}" />
+      </f:else>
+    </f:if>
 
     <f:if condition="{container} != 'none'">
       <f:then>
