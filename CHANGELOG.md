@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Brought back defaults
 * Fixed TypoScript
 
 5.0.0
