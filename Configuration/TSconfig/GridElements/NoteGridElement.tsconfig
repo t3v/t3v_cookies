@@ -3,9 +3,9 @@
 tx_gridelements {
   setup {
     t3vCookiesNoteGridElement {
-      title = LLL:EXT:t3v_cookies/Resources/Private/Language/locallang_be.xlf:gridElements.noteGridElement.title
+      title = LLL:EXT:t3v_cookies/Resources/Private/Language/locallang_ttc.xlf:gridElements.noteGridElement.title
 
-      description = LLL:EXT:t3v_cookies/Resources/Private/Language/locallang_be.xlf:gridElements.noteGridElement.description
+      description = LLL:EXT:t3v_cookies/Resources/Private/Language/locallang_ttc.xlf:gridElements.noteGridElement.description
 
       flexformDS = FILE:EXT:t3v_cookies/Configuration/FlexForms/GridElements/NoteGridElement.xml
 
@@ -35,7 +35,7 @@ tx_gridelements {
           1 {
             columns {
               1 {
-                name = LLL:EXT:t3v_cookies/Resources/Private/Language/locallang_be.xlf:gridElements.noteGridElement.rows.1.columns.1.name
+                name = LLL:EXT:t3v_cookies/Resources/Private/Language/locallang_ttc.xlf:gridElements.noteGridElement.rows.1.columns.1.name
 
                 colPos = 10
 

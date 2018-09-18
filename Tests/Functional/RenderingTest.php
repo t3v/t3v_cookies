@@ -26,7 +26,11 @@ class RenderingTest extends FunctionalTestCase {
    *
    * @var array
    */
-  protected $testExtensionsToLoad = ['typo3conf/ext/t3v_cookies'];
+  protected $testExtensionsToLoad = [
+    'typo3conf/ext/t3v_core',
+    'typo3conf/ext/t3v_content',
+    'typo3conf/ext/t3v_cookies'
+  ];
 
   /**
    * Tests if the template is rendered.
@@ -47,8 +51,6 @@ class RenderingTest extends FunctionalTestCase {
 
   /**
    * Setup before running tests.
-   *
-   * @return void
    */
   protected function setUp() {
     parent::setUp();
