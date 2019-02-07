@@ -15,14 +15,10 @@
   </f:section>
 
   <f:section name="CloseControl">
-    <f:if condition="{data.flexform_closeControl} == '0' || {data.flexform_closeControl} == '1'">
-      <f:then>
-        <v:variable.set name="closeControl" value="{data.flexform_closeControl}" />
-      </f:then>
+    <v:variable.set name="closeControl" value="{f:cObject(typoscriptObjectPath: 'lib.plugin.tx_t3vcookies.gridElements.noteGridElement.closeControl')}" />
 
-      <f:else>
-        <v:variable.set name="closeControl" value="{f:cObject(typoscriptObjectPath: 'lib.plugin.tx_t3vcookies.defaults.gridElements.noteGridElement.closeControl')}" />
-      </f:else>
+    <f:if condition="{data.flexform_closeControl} == '0' || {data.flexform_closeControl} == '1'">
+      <v:variable.set name="closeControl" value="{data.flexform_closeControl}" />
     </f:if>
 
     <f:if condition="{closeControl}">
