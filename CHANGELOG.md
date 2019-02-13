@@ -3,8 +3,8 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+3.6.1
+-----
 
 * Updated TypoScript configuration / structure
 * Updated dependencies
