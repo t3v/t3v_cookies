@@ -8,6 +8,7 @@ Unreleased
 
 * Updated translations
 * Updated dependencies
+* Updated Travis CI configuration
 
 5.2.1
 -----
