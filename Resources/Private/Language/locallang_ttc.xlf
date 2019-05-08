@@ -13,7 +13,7 @@
       </trans-unit>
 
       <trans-unit id="gridElements.noteGridElement.description">
-        <source>Cookies Note Grid Element</source>
+        <source>A Cookies Note Grid Element.</source>
       </trans-unit>
 
       <trans-unit id="gridElements.noteGridElement.rows.1.columns.1.name">

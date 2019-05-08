@@ -14,8 +14,8 @@
       </trans-unit>
 
       <trans-unit id="gridElements.noteGridElement.description">
-        <source>Cookies Note Grid Element</source>
-        <target>Cookies Hinweis Grid Element</target>
+        <source>A Cookies Note Grid Element.</source>
+        <target>Ein Cookies-Hinweis-Grid-Element.</target>
       </trans-unit>
 
       <trans-unit id="gridElements.noteGridElement.rows.1.columns.1.name">
