@@ -7,8 +7,9 @@ Unreleased
 ----------
 
 * Updated translations
+* Dropped support for TYPO3 8.x
 * Updated dependencies
-* Updated Travis CI configuration
+* Updated Travis CI and AppVeyor configuration
 
 5.2.1
 -----
