@@ -3,8 +3,8 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
-Unreleased
-----------
+3.6.2
+-----
 
 * Updated dependencies
 
@@ -12,15 +12,15 @@ Unreleased
 -----
 
 * Updated TypoScript configuration / structure
-* Updated dependencies
 * Updated Travis CI and AppVeyor configuration
+* Updated dependencies
 * Cleaned up
 
 3.6.0
 -----
 
-* Updated dependencies
 * Updated Travis CI and AppVeyor configuration
+* Updated dependencies
 * Cleaned up
 
 3.5.0
@@ -40,8 +40,8 @@ Unreleased
 -----
 
 * Updated TypoScript
-* Updated dependencies
 * Updated AppVeyor configuration
+* Updated dependencies
 * Cleaned up
 
 3.2.0
@@ -49,8 +49,8 @@ Unreleased
 
 * Updated TypoScript
 * Cleaned up
-* Updated dependencies
 * Updated Travis CI and AppVeyor configuration
+* Updated dependencies
 * Updated constraints to TYPO3 7.6
 
 3.1.1
