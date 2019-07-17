@@ -8,7 +8,7 @@
 Dependencies
 ------------
 
-* TYPO3 CMS 7.6 or greater
+* TYPO3 CMS 7.6
 * Grid Elements extension
 * VHS extension
 * T3v Core extension
